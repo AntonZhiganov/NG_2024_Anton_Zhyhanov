@@ -1,0 +1,15 @@
+# ninja log v5
+1	956	7392856503250821	main_autogen/timestamp	83c81eef5de99c5e
+1	956	7392856503250821	main_autogen/mocs_compilation.cpp	83c81eef5de99c5e
+1	956	7392856503250821	D:/Универ/NG_2024_Anton_Zhyhanov/Lection_1/Task_1/main/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Debug/main_autogen/timestamp	83c81eef5de99c5e
+1	956	7392856503250821	D:/Универ/NG_2024_Anton_Zhyhanov/Lection_1/Task_1/main/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Debug/main_autogen/mocs_compilation.cpp	83c81eef5de99c5e
+957	1284	7392856508281313	CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.obj	efec4e53e4bf5893
+1055	2892	7392856524259831	CMakeFiles/main.dir/main.cpp.obj	89fd7f5679b532e8
+2899	3323	7392856528584963	main.exe	afad5066a6c9c2a2
+29	731	7392859292523320	main_autogen/timestamp	83c81eef5de99c5e
+29	731	7392859292523320	main_autogen/mocs_compilation.cpp	83c81eef5de99c5e
+29	731	7392859292523320	D:/Универ/NG_2024_Anton_Zhyhanov/Lection_1/Task_1/main/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Debug/main_autogen/timestamp	83c81eef5de99c5e
+29	731	7392859292523320	D:/Универ/NG_2024_Anton_Zhyhanov/Lection_1/Task_1/main/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Debug/main_autogen/mocs_compilation.cpp	83c81eef5de99c5e
+748	1052	7392859295672803	CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.obj	efec4e53e4bf5893
+844	2525	7392859310393334	CMakeFiles/main.dir/main.cpp.obj	89fd7f5679b532e8
+2526	2903	7392859314079698	main.exe	afad5066a6c9c2a2
