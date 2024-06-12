@@ -1,0 +1,8 @@
+# ninja log v5
+2	1522	7398979099680173	main_autogen/timestamp	28b765e3c8d91f6e
+2	1522	7398979099680173	main_autogen/mocs_compilation.cpp	28b765e3c8d91f6e
+2	1522	7398979099680173	D:/Универ/NG_2024_Anton_Zhyhanov/Lection_1/Task_2/main/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/main_autogen/timestamp	28b765e3c8d91f6e
+2	1522	7398979099680173	D:/Универ/NG_2024_Anton_Zhyhanov/Lection_1/Task_2/main/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/main_autogen/mocs_compilation.cpp	28b765e3c8d91f6e
+1523	2316	7398979109629407	CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.obj	5bf49d511ab062f3
+1648	3454	7398979120999168	CMakeFiles/main.dir/main.cpp.obj	131dfea01ff1234b
+3456	4583	7398979132213884	main.exe	bf9df0ead4a508ff

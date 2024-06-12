@@ -1,0 +1,9 @@
+D:/Универ/NG_2024_Anton_Zhyhanov/Lection_1/Task_2/main/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Release/CMakeFiles/main.dir
+D:/Универ/NG_2024_Anton_Zhyhanov/Lection_1/Task_2/main/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Release/CMakeFiles/edit_cache.dir
+D:/Универ/NG_2024_Anton_Zhyhanov/Lection_1/Task_2/main/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Release/CMakeFiles/rebuild_cache.dir
+D:/Универ/NG_2024_Anton_Zhyhanov/Lection_1/Task_2/main/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Release/CMakeFiles/list_install_components.dir
+D:/Универ/NG_2024_Anton_Zhyhanov/Lection_1/Task_2/main/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Release/CMakeFiles/install.dir
+D:/Универ/NG_2024_Anton_Zhyhanov/Lection_1/Task_2/main/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Release/CMakeFiles/install/local.dir
+D:/Универ/NG_2024_Anton_Zhyhanov/Lection_1/Task_2/main/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Release/CMakeFiles/install/strip.dir
+D:/Универ/NG_2024_Anton_Zhyhanov/Lection_1/Task_2/main/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Release/CMakeFiles/main_autogen_timestamp_deps.dir
+D:/Универ/NG_2024_Anton_Zhyhanov/Lection_1/Task_2/main/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Release/CMakeFiles/main_autogen.dir
