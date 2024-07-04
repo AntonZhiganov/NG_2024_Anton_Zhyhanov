@@ -16,9 +16,7 @@ int main()
         if (money < 1000000){
             cout << "You're doing a good job" << endl;
         }
-    }
 
-    if (money > 999){
         if (money > 999999){
             cout << "Wow, you're a millionaire" << endl;
         }
