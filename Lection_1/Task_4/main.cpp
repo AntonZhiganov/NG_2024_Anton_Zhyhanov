@@ -3,6 +3,15 @@
 
 using namespace std;
 
+float getNumber(const string& prompt){
+
+    float number;
+    cout << prompt << endl;
+    cin >> number;
+    return number;
+
+}
+
 int main()
 {
     float number1;
@@ -20,59 +29,46 @@ int main()
     cin >> action;
 
     switch(action) {
-        case 1 :
-            action = 1;
-            cout << "Enter first number" << endl;
-            cin >> number1;
+    case 1 :
+        action = 1;
+        number1 = getNumber("Enter first number");
+        number2 = getNumber("Enter second number");
+        cout << number1 + number2;
+        break;
 
-            cout << "Enter second number" << endl;
-            cin >> number2;
-            cout << number1 + number2;
-            break;
+    case 2 :
+        action = 2;
+        number1 = getNumber("Enter first number");
+        number2 = getNumber("Enter second number");
+        cout << number1 - number2;
+        break;
 
-        case 2 :
-            action = 2;
-            cout << "Enter first number" << endl;
-            cin >> number1;
+    case 3 :
+        action = 3;
+        number1 = getNumber("Enter first number");
+        number2 = getNumber("Enter second number");
+        cout << number1 * number2;
+        break;
 
-            cout << "Enter second number" << endl;
-            cin >> number2;
-            cout << number1 - number2;
-            break;
+    case 4 :
+        action = 4;
+        number1 = getNumber("Enter first number");
+        number2 = getNumber("Enter second number");
+        cout << number1 / number2;
+        break;
 
-        case 3 :
-            action = 3;
-            cout << "Enter first number" << endl;
-            cin >> number1;
 
-            cout << "Enter second number" << endl;
-            cin >> number2;
-            cout << number1 * number2;
-            break;
+    case 5 :
+        action = 5;
+        number1 = getNumber("Enter number");
+        cout << number1 * number1 ;
+        break;
 
-        case 4 :
-            action = 4;
-            cout << "Enter first number" << endl;
-            cin >> number1;
-
-            cout << "Enter second number" << endl;
-            cin >> number2;
-            cout << number1 / number2;
-            break;
-
-        case 5 :
-            action = 5;
-            cout << "Enter number" << endl;
-            cin >> number1;
-            cout << number1 * number1 ;
-            break;
-
-        case 6 :
-            action = 6;
-            cout << "Enter number" << endl;
-            cin >> number1;
-            cout << sqrt(number1);
-            break;
+    case 6 :
+        action = 6;
+        number1 = getNumber("Enter number");
+        cout << sqrt(number1);
+        break;
     }
 
     return 0;
