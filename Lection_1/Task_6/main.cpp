@@ -3,17 +3,17 @@
 using namespace std;
 
 void DrawTree(int size) {
-    for (int i = 1; i <= size; ++i) {
-        for (int j = i; j < size; ++j) {
+    for (int row = 1; row <= size; ++row) {
+        for (int symbol = row; symbol < size; ++symbol) {
             cout << " ";
         }
-        for (int j = 1; j <= (2 * i - 1); ++j) {
+        for (int symbol = 1; symbol <= (2 * row - 1); ++symbol) {
             cout << "*";
         }
         cout << endl;
     }
 
-    for (int i = 0; i < size - 1; ++i) {
+    for (int row = 0; row < size - 1; ++row) {
         cout << " ";
     }
     cout << "*" << endl;
