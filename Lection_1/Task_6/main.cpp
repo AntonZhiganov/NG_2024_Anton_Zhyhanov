@@ -2,7 +2,10 @@
 
 using namespace std;
 
-void DrawTree(int size) {
+int main() {
+    int size;
+    cout << "Enter size: ";
+    cin >> size;
     for (int row = 1; row <= size; ++row) {
         for (int symbol = row; symbol < size; ++symbol) {
             cout << " ";
@@ -17,12 +20,5 @@ void DrawTree(int size) {
         cout << " ";
     }
     cout << "*" << endl;
-}
-
-int main() {
-    int size;
-    cout << "Enter size: ";
-    cin >> size;
-    DrawTree(size);
     return 0;
 }
