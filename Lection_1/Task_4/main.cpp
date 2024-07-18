@@ -25,33 +25,29 @@ int main()
     cout << "3 = *" << endl;
     cout << "4 = :" << endl;
     cout << "5 = Number square" << endl;
-    cout << "5 = Apply to the root" << endl;
+    cout << "6 = Apply to the root" << endl;
     cin >> action;
 
     switch(action) {
     case 1 :
-        action = 1;
         number1 = getNumber("Enter first number");
         number2 = getNumber("Enter second number");
         cout << number1 + number2;
         break;
 
     case 2 :
-        action = 2;
         number1 = getNumber("Enter first number");
         number2 = getNumber("Enter second number");
         cout << number1 - number2;
         break;
 
     case 3 :
-        action = 3;
         number1 = getNumber("Enter first number");
         number2 = getNumber("Enter second number");
         cout << number1 * number2;
         break;
 
     case 4 :
-        action = 4;
         number1 = getNumber("Enter first number");
         number2 = getNumber("Enter second number");
         cout << number1 / number2;
@@ -59,15 +55,14 @@ int main()
 
 
     case 5 :
-        action = 5;
         number1 = getNumber("Enter number");
         cout << number1 * number1 ;
         break;
 
     case 6 :
-        action = 6;
-        number1 = getNumber("Enter number");
-        cout << sqrt(number1);
+        number1 = getNumber("Enter the degree of the root");
+        number2 = getNumber("Enter the number under the root");
+        cout << pow(number2, 1.0 / number1); ;
         break;
     }
 
