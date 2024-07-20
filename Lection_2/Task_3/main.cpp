@@ -3,11 +3,11 @@
 using namespace std;
 
 int main(){
-    int arr[20];
+    int arr[5];
     int count = 0;
     int maxStars = 0;
 
-    for (int num = 0; num < 20; num++) {
+    for (int num = 0; num < 5; num++) {
         cout << "Enter number of stars: ";
         cin >> arr[num];
         if (arr[num] < 0) {
