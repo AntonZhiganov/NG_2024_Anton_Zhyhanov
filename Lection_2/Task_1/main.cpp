@@ -30,8 +30,12 @@ int main() {
             case 1:
                 cout << "How much money do you want to deposit into your account?" << endl;
                 cin >> money;
-                account[choiceAccount - 1] += money;
-                cout << "Now you have it on your account - " << account[choiceAccount - 1] << endl;
+                if (money >= 1){
+                    account[choiceAccount - 1] += money;
+                    cout << "Now you have it on your account - " << account[choiceAccount - 1] << endl;
+                }
+                else
+                    cout << "You cannot deposit less than 1 into your account." << endl;
                 break;
             case 2:
                 cout << "How much money do you want to withdraw from your account?" << endl;
