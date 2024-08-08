@@ -12,6 +12,12 @@ float getNumber(const string& prompt){
 
 }
 
+pair<float, float> getTwoNumbers(const string& prompt1, const string& prompt2) {
+    float number1 = getNumber(prompt1);
+    float number2 = getNumber(prompt2);
+    return make_pair(number1, number2);
+}
+
 int main()
 {
     float number1;
@@ -29,41 +35,44 @@ int main()
     cin >> action;
 
     switch(action) {
-    case 1 :
-        number1 = getNumber("Enter first number");
-        number2 = getNumber("Enter second number");
-        cout << number1 + number2;
+    case 1 :{
+        auto numbers = getTwoNumbers("Enter first number", "Enter second number");
+        cout << numbers.first + numbers.second;
         break;
+    }
 
-    case 2 :
-        number1 = getNumber("Enter first number");
-        number2 = getNumber("Enter second number");
-        cout << number1 - number2;
+    case 2 :{
+        auto numbers = getTwoNumbers("Enter first number", "Enter second number");
+        cout << numbers.first - numbers.second;
         break;
+    }
 
-    case 3 :
-        number1 = getNumber("Enter first number");
-        number2 = getNumber("Enter second number");
-        cout << number1 * number2;
+    case 3 :{
+       auto numbers = getTwoNumbers("Enter first number", "Enter second number");
+        cout << numbers.first * numbers.second;
         break;
+    }
 
-    case 4 :
-        number1 = getNumber("Enter first number");
-        number2 = getNumber("Enter second number");
-        cout << number1 / number2;
+    case 4 :{
+        auto numbers = getTwoNumbers("Enter first number", "Enter second number");
+        cout << numbers.first / numbers.second;
         break;
-
+    }
 
     case 5 :
         number1 = getNumber("Enter number");
         cout << number1 * number1 ;
         break;
 
-    case 6 :
-        number1 = getNumber("Enter the degree of the root");
-        number2 = getNumber("Enter the number under the root");
-        cout << pow(number2, 1.0 / number1); ;
+    case 6 :{
+        auto numbers = getTwoNumbers("Enter first number", "Enter second number");
+        cout << pow(numbers.first, 1.0 / numbers.second); ;
         break;
+    }
+
+    default:
+        cout << "Invalid choice";
+
     }
 
     return 0;
