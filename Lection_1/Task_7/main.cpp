@@ -18,6 +18,7 @@ int main()
     if (distance <= N) {
         cout << "Detector blinking frequency: " << distance << endl;
     } else {
+        cout << "Distance from origin: " << distance << endl;
         cout << "Point is outside the field radius." << endl;
     }
 
