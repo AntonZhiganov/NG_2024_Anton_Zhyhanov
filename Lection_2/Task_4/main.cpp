@@ -1,27 +1,25 @@
 #include <iostream>
+#include <cctype>
 
 using namespace std;
 
 int main()
 {
     string sentence;
-    int word;
+    int word = 0;
     cout << "Enter a sentence:" << endl;
-    getline(cin,sentence);
+    getline(cin, sentence);
 
     bool inWord = false;
     for (char symbol : sentence){
-        if(isspace(symbol)){
-            if (inWord){
-                inWord = false;
-            }
-        }
-
-        else {
-            if(!inWord){
+        if (isalnum(symbol)) {
+            if (!inWord) {
                 inWord = true;
                 word++;
             }
+        }
+        else {
+            inWord = false;
         }
     }
 
