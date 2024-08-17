@@ -12,7 +12,7 @@ int main()
 
     bool inWord = false;
     for (char symbol : sentence){
-        if (isalnum(symbol)) {
+        if (isalpha(symbol)) {
             if (!inWord) {
                 inWord = true;
                 word++;
