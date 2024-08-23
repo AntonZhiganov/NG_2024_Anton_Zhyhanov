@@ -1,0 +1,10 @@
+Type: Book
+Name: Fred Boney
+Author: Dont speak
+Address: Green str. 65
+Date: 22/04/1998
+Type: Book
+Name: Ivan Bodyn
+Author: 5 Colors
+Address: Green str. 65
+Date: 05/08/2023
